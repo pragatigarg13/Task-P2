@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>DEV@Deakin</title>
+</head>
+
+<body>
+
+    <nav class="flex flex-wrap gap-4 md:gap-10 p-4 bg-cyan-700 shadow">
+        <a href="#about" class="sm:text-sm md:text-xl lg:text-2xl">About</a> 
+        <a href="#work" class="sm:text-sm md:text-xl lg:text-2xl">Work</a>
+        <a href="#subscribe" class="sm:text-sm md:text-xl lg:text-2xl">Subscribe</a>
+        <a href="#contact" class="sm:text-sm md:text-xl lg:text-2xl">Contact</a>
+    </nav>
+
+    <div class="relative group">
+
+        <img 
+            src="https://images.shiksha.com/mediadata/images/articles/1677833564phpqmRljD.jpeg"
+            alt="Deakin University"
+            class="w-full h-60 md:h-96">
+        
+        <div class="absolute bottom-0 left-0 w-full bg-black text-white text-center p-3 hidden group-hover:block">
+            Hey, I'm Pragati
+        </div>
+
+    </div>
+
+    <section id="about">
+
+        <img src="https://i.pinimg.com/474x/8b/48/ba/8b48bab9a654b1da6e10912db1ca4012.jpg" 
+        alt="Author" class="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full object-cover pt-1">
+
+        <p class="text-center text-sm md:text-xl p-4 max-w-2xl mx-auto">  
+            I am Pragati, a student pursuing a B.E. in Software Engineering. 
+            I am interested in technology, programming, and developing new skills.
+        </p>
+
+    </section>
+
+    <hr class="w-35 mx-auto my-6 border-t-3 border-cyan-700">
+
+    <section id="work" class="Projects"> 
+
+        <h2 class="text-4xl text-center p-3 text-cyan-700">
+            <strong>Here's what I have done so far</strong>
+        </h2> 
+ 
+        <div class="Project flex flex-col md:flex-row items-center gap-6"> 
+
+            <img src="bmi calculator.png" alt="bmi calculator" class="w-full max-w-xs md:w-48 h-32 object-cover">
+
+            <div> 
+
+                <h3 class="text-center text-xl md:text-2xl text-rose-800">
+                    <strong>BMI calculator</strong>
+                </h3> 
+
+                <p class="text-center text-sm md:text-xl p-4 max-w-2xl mx-auto">
+                    A simple BMI calculator website that calculates BMI using height and weight
+                </p> 
+                <a href="https://github.com/pragatigarg13/BMI-using-TailwindCSS" class="text-center text-blue-600 underline block">
+                    View on GitHub </a>
+            </div>  
+
+        </div> 
+ 
+        <div class="Project flex flex-col md:flex-row items-center gap-6"> 
+
+            <img src="Studentform.png" alt="Student form" class="w-full max-w-xs md:w-48 h-32 object-cover pt-2">
+
+            <div> 
+
+                <h3 class="text-center text-xl md:text-2xl text-rose-800">
+                    <strong>Student Registration Form</strong>
+                </h3> 
+
+                <p class="text-center text-sm md:text-xl p-4 max-w-2xl mx-auto">
+                    A student registration website created using HTML, CSS and JavaScript
+                </p>
+                <a href="https://github.com/pragatigarg13/Student-Registration-Form" class="text-center text-blue-600 underline block">
+                    View on GitHub </a>
+            </div> 
+
+        </div> 
+
+    </section> 
+
+    <hr class="w-35 mx-auto my-6 border-t-3 border-cyan-700"> 
+
+    <section class="My Photos"> 
+
+        <h3 class="text-4xl text-center p-3 text-cyan-700">
+            <strong>My Photos</strong>
+        </h3> 
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4"> 
+
+            <img src="nature1.jpg" alt="nature1" class="w-full h-48 object-cover"> 
+            <img src="nature2.jpg" alt="nature2" class="w-full h-48 object-cover"> 
+            <img src="nature3.jpeg" alt="nature3" class="w-full h-48 object-cover"> 
+            <img src="nature4.jpg" alt="nature4" class="w-full h-48 object-cover"> 
+
+        </div> 
+    </section>
+    <hr class="w-35 mx-auto my-6 border-t-3 border-cyan-700">
+    
+    <section id="subscribe" class="flex flex-wrap justify-center items-center gap-2 p-6">
+
+        <h3 class="text-xl md:text-2xl text-cyan-700">
+            <strong>SIGN UP FOR OUR DAILY INSIDER</strong>
+        </h3>
+
+        <form action="/subscribe" method="POST" class="flex gap-2">
+
+        <input type="email" name="email" placeholder="Enter your email" class="border border-gray-400 p-2" required>
+        <button type="submit" class="bg-gray-300 px-4 py-2"> Subscribe </button>
+
+        </form>
+
+   </section>
+
+    <section id="contact" class="text-center p-6">
+
+        <h3 class="text-3xl text-cyan-700">
+            <strong>Contact</strong>
+        </h3>
+
+        <p class="p-3">
+            Email: pragatigarg1392007@gmail.com
+        </p>
+
+    </section>
+     
+</body> 
+</html>
+
